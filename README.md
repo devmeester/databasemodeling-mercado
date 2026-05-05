@@ -100,6 +100,9 @@ Principais decisões de modelagem lógica:
 - **tbl_vendas_formas_pagamento**: tabela associativa com `valor_pago` para rastrear quanto foi pago em cada modalidade
 - **tbl_produtos_fornecedores**: tabela associativa para suportar múltiplos fornecedores por produto
 
+<img width="499" height="335" alt="image" src="https://github.com/user-attachments/assets/e22da788-92ec-42e8-b816-0ef5f2ca0f71" />
+
+
 ---
 
 ## Modelo Físico (MySQL)
@@ -109,13 +112,6 @@ Principais decisões de modelagem lógica:
 - MySQL 8.0+
 - MySQL Workbench, TablePlus ou cliente equivalente
 
-### Estrutura de ficheiros
-
-```
-mercado-da-vila/
-├── README.md
-└── mercado_da_vila.sql   ← DDL + DML completo
-```
 
 ### Script completo
 
