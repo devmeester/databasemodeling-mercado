@@ -53,15 +53,8 @@ O trabalho cobre as quatro etapas clássicas de modelagem:
 
 O diagrama ER contempla as seguintes entidades principais e seus relacionamentos:
 
-```
-CLIENTE ──(1,N)── VENDA ──(1,N)── ITEM_VENDA ──(1,1)── PRODUTO
-                    │                                      │
-                (1,N)                                  (1,N)
-                    │                                      │
-             COLABORADOR                            FORNECEDOR
-                    │
-                 CAIXA ──(1,1)── VENDA ──(N,M)── FORMA_PAGAMENTO
-```
+<img width="516" height="349" alt="image" src="https://github.com/user-attachments/assets/2a17a0fd-dafb-4b6d-9436-0ccf12231888" />
+
 
 ### Entidades e Atributos
 
